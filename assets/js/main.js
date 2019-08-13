@@ -2,7 +2,8 @@ $(document).ready(function(){
   $('#summernote').summernote({
   	height:300
   });
-  $('form').on('submit', function(){
+  $('form').on('submit', function(e){
+      e.preventDefault();
      return false;
   })
 
@@ -22,16 +23,5 @@ $(document).ready(function(){
   		$('.p-'+currentPageNumber).fadeOut();
   		$('.p-'+ nextPage).fadeIn();
   });
-  /* Select Year  */
-    var min = new Date().getFullYear(),
-        max = min - 30,
-        select = document.getElementById('years');
-
-    for (var i = min; i<=max; i++){
-        var opt = document.createElement('option');
-        opt.value = i;
-        opt.innerHTML = i;
-        select.appendChild(opt);
-    }
 
 });
