@@ -248,6 +248,9 @@ span {
     margin-top: 10% !important;
     margin-bottom: 10% !important; } }
 @media screen and (max-width: 950px) {
+  .first-page h1 {
+    font-size: 1.6em; }
+
   .text-holder {
     flex-direction: column; }
 

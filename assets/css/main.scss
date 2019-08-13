@@ -344,6 +344,11 @@ $accent:#4A7FD9;
 }
 
 @media screen and (max-width: 950px){
+	.first-page{
+		h1{
+			font-size:1.6em
+		}
+	}
 	.text-holder{
 		flex-direction: column;
 	}
