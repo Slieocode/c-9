@@ -2,10 +2,6 @@ $(document).ready(function(){
   $('#summernote').summernote({
   	height:300
   });
-  $('form').on('submit', function(e){
-      e.preventDefault();
-     return false;
-  })
 
   let currentPageNumber, nextPage;
   $('.btnd-next').on('click', function(){
