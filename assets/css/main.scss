@@ -18,7 +18,7 @@ $accent:#4A7FD9;
 			margin-bottom: 60px;
 		}
 		position: relative;
-		.first-page, .second-page, .third-page, .fourth-page, .fifth-page{
+		.first-page, .second-page, .third-page, .fourth-page, .fifth-page, .additional-page{
 			position: absolute;
 			width:50%
 		}
@@ -27,7 +27,7 @@ $accent:#4A7FD9;
 			width:60%;
 
 		}
-		.fifth-page, .second-page, .third-page, .fourth-page{
+		.fifth-page, .second-page, .third-page, .fourth-page, .additional-page{
 			z-index: -9;
 			display: none;
 		}
@@ -333,6 +333,10 @@ $accent:#4A7FD9;
 		}
 }
 
+.form-holder .two-label {
+    margin-left: 10%;
+    margin-right: 5%;
+}
 
 @media screen and (max-width: 1200px){
 	.first-page{

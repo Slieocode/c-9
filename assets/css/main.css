@@ -14,13 +14,13 @@ span {
   position: relative; }
   .form-holder h1 {
     margin-bottom: 60px; }
-  .form-holder .first-page, .form-holder .second-page, .form-holder .third-page, .form-holder .fourth-page, .form-holder .fifth-page {
+  .form-holder .first-page, .form-holder .second-page, .form-holder .third-page, .form-holder .fourth-page, .form-holder .fifth-page, .form-holder .additional-page {
     position: absolute;
     width: 50%; }
   .form-holder .third-page {
     position: absolute;
     width: 60%; }
-  .form-holder .fifth-page, .form-holder .second-page, .form-holder .third-page, .form-holder .fourth-page {
+  .form-holder .fifth-page, .form-holder .second-page, .form-holder .third-page, .form-holder .fourth-page, .form-holder .additional-page {
     z-index: -9;
     display: none; }
   .form-holder .buttons {
@@ -242,6 +242,10 @@ span {
   .form-holder label > input:focus, .form-holder label > textarea:focus {
     border-bottom: 1px solid #000;
     box-shadow: 0 1px 0 0 #000; }
+
+.form-holder .two-label {
+  margin-left: 10%;
+  margin-right: 5%; }
 
 @media screen and (max-width: 1200px) {
   .first-page .btnd {
