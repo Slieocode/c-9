@@ -24,4 +24,22 @@ $(document).ready(function(){
   		$('.p-'+ nextPage).fadeIn();
   });
 
+  /* Select Disable */
+  $('.work').on('click', function(){
+    if($(".work").is(":checked")){
+        $('.checkbox select').attr('disabled', true)
+        $(".disable").find('select').css({background:"#CCC"})
+    }else{
+        $(".disable").find('select').css({background:"none"})
+        $('.checkbox select').attr('disabled', false);
+    }
+      
+  })
+
+  /* Work Experience */
+  $('.allow-work').on('click', function(){
+      $('.second-page.p-2').find('input[type="text"]').each((i, el)=>{
+         $(el).val('')
+      })
+  })
 });
