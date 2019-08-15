@@ -12,7 +12,8 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.css" rel="stylesheet">
 </head>
 <body>
-	<form  class="form-holder">
+	<main  class="form-holder">
+	 <h2 style="padding-left: 98px;text-transform: uppercase;">unmsm busca</h2>
 		<div class="container">
 			<div class="first-page p-1">
 				<h1>What’s the best way for employers to contact you?</h1>
@@ -234,23 +235,116 @@
 			    <div class="input-sec-1 two four">
 					<div style="display: flex;width: 47%;">
 						<select class="first-select">
+							<option value="Select">Start Month</option>
+							<option value="Select">Jan</option>
+							<option value="Select">Feb</option>
+							<option value="Select">Mar</option>
+							<option value="Select">Apr</option>
+							<option value="Select">May</option>
+							<option value="Select">Jun</option>
+							<option value="Select">Jul</option>
+							<option value="Select">Aug</option>
+							<option value="Select">Sep</option>
+							<option value="Select">Oct</option>
+							<option value="Select">Nov</option>
+							<option value="Select">Dec</option>
+						</select>
+
+						<select id="years">
+							<option value="Select">Start Year</option>
+							<option value="Select">2018</option>
+							<option value="Select">2017</option>
+							<option value="Select">2016</option>
+							<option value="Select">2015</option>
+							<option value="Select">2014</option>
+							<option value="Select">2013</option>
+							<option value="Select">2012</option>
+							<option value="Select">2011</option>
+							<option value="Select">2010</option>
+							<option value="Select">2009</option>
+							<option value="Select">2008</option>
+							<option value="Select">2007</option>
+							<option value="Select">2006</option>
+							<option value="Select">2005</option>
+							<option value="Select">2004</option>
+							<option value="Select">2003</option>
+							<option value="Select">2002</option>
+							<option value="Select">2001</option>
+							<option value="Select">2000</option>
+
+						</select>
+					</div>
+					<div class="checkbox disable" style="display: flex;width: 47%;">
+						<select class="first-select">
+							<option value="Select">End Month</option>
+							<option value="Select">Jan</option>
+							<option value="Select">Feb</option>
+							<option value="Select">Mar</option>
+							<option value="Select">Apr</option>
+							<option value="Select">May</option>
+							<option value="Select">Jun</option>
+							<option value="Select">Jul</option>
+							<option value="Select">Aug</option>
+							<option value="Select">Sep</option>
+							<option value="Select">Oct</option>
+							<option value="Select">Nov</option>
+							<option value="Select">Dec</option>
+						</select>
+						<select>
+							<option value="Select">End Year</option>
+							<option value="Select">2018</option>
+							<option value="Select">2017</option>
+							<option value="Select">2016</option>
+							<option value="Select">2015</option>
+							<option value="Select">2014</option>
+							<option value="Select">2013</option>
+							<option value="Select">2012</option>
+							<option value="Select">2011</option>
+							<option value="Select">2010</option>
+							<option value="Select">2009</option>
+							<option value="Select">2008</option>
+							<option value="Select">2007</option>
+							<option value="Select">2006</option>
+							<option value="Select">2005</option>
+							<option value="Select">2004</option>
+							<option value="Select">2003</option>
+							<option value="Select">2002</option>
+							<option value="Select">2001</option>
+							<option value="Select">2000</option>
+						</select>
+						<div class="input-check">
+				   			<input type="checkbox" class="css-checkbox work" id="checkNone" name="checkNone"> 
+				   			<label class="css-label" for="checkNone">I'm Currently Studying</label> 
+						</div>
+					</div>
+			    </div>
+ 			    <div class="input-sec-1 two four">
+					<div style="display: flex;width: 47%;margin-top:3%;">
+						<select class="first-select">
 							<option value="Select">Select Degree</option>
 							<option value="Select">Bachlor</option>
 							<option value="Select">Associate</option>
 							<option value="Select">Phd</option>
 						</select>
-					</div>
-					<div class="checkbox" style="display: flex;width: 47%;">
-					</div>
-			    </div>
+					</div>				
+				</div>
+
 				<div class="buttons" style="display: flex; justify-content: space-between;">
 				    <button type="button" class="btnd btnd-back btn-5">Back</button>		    	    
 				    <button class="btnd btnd-next btn-5">Next</button>		    	    
 				</div>
 		</div>
 
+			<div class="additional-page p-6">
+			<h1>Do You Want To Add More Educational Information?</h1>				
+				<div class="buttons btm" style="display: flex; justify-content: space-between;">
+				    <button type="button" class="btnd btnd-back btn-6 allow-work">Yes</button>		    	    
+				    <button class="btnd btnd-next btn-6">No</button>		    	    
+				</div>
+		</div>	
+
 		<!-- Fifth Page -->
-		<div class="fifth-page p-6">
+		<div class="fifth-page p-7">
 				<h1>Would you like to add any of these sections to your CV?</h1>
 <!-- 			    <div class="input-sec-1 two">
 					<label>
@@ -274,51 +368,50 @@
 			    </div>
  -->			   
 				<div class="input-check">
-		   			<input type="checkbox" class="css-checkbox" id="checktwo" name="checktwo"> 
+		   			<input type="checkbox" class="css-checkbox check-1" id="checktwo" name="checktwo"> 
 		   			<label class="css-label" for="checktwo">Accomplishments</label> 
 				</div>
+			    <div class="input-sec-1 two">
+					<label>
+					    <input type="text" disabled="true" style="background:#CCC"  data-role="check-1" name="Name" />
+					    <span>Add Your Own</span>						
+					</label>
+			    </div>
+
 
 				<div class="input-check">
-		   			<input type="checkbox" class="css-checkbox" id="checkthree" name="checkthree"> 
-		   			<label class="css-label" for="checkthree">Affiliations</label> 
+		   			<input type="checkbox" class="css-checkbox check-2" id="checkthree" name="checkthree"> 
+		   			<label class="css-label" for="checkthree">Skills</label> 
 				</div>
+			    <div class="input-sec-1 two">
+					<label>
+					    <input type="text" disabled="true" style="background:#CCC" data-role="check-2" name="Name" />
+					    <span>Add Your Own</span>						
+					</label>
+			    </div>
 				<div class="input-check">
-		   			<input type="checkbox" class="css-checkbox" id="checkfour" name="checkfour"> 
+		   			<input type="checkbox" class="css-checkbox check-3" id="checkfour" name="checkfour"> 
 		   			<label class="css-label" for="checkfour">Websites, portfolios, profiles</label> 
 				</div>
 
 			    <div class="input-sec-1 two">
 					<label>
-					    <input type="text"   name="Name" />
-					    <span>Add Your Own</span>						
-					</label>
-			    </div>
-
-			    <div class="input-sec-1 two">
-					<label>
-					    <input type="text"   name="Name" />
-					    <span>Add Your Own</span>						
-					</label>
-			    </div>
-
-			    <div class="input-sec-1 two">
-					<label>
-					    <input type="text"   name="Name" />
+					    <input type="text" disabled="true" style="background:#CCC"  data-role="check-3"  name="Name" />
 					    <span>Add Your Own</span>						
 					</label>
 			    </div>			    			    
 				<div class="buttons" style="display: flex; justify-content: space-between;">
-				    <button type="button" class="btnd btnd-back btn-6">Back</button>		    	    
-				    <button class="btnd btnd-next btn-6">Next</button>		    	    
+				    <button type="button" class="btnd btnd-back btn-7">Back</button>		    	    
+				    <button class="btnd btnd-next btn-7">Next</button>		    	    
 				</div>
 		</div>
-				<div style="text-align: center; margin:0 auto;"  class="fifth-page p-7">
+				<div style="text-align: center; margin:0 auto;"  class="fifth-page p-8">
 					<h1>Thank You! Your data is being processed!</h1>
 				</div>
 
 		</div>
 	</div>
-	</form>
+	</main>
 	<script  src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.js"></script>

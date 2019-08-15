@@ -67,7 +67,7 @@ $accent:#4A7FD9;
 				}
 			}
 		}
-		.second-page{
+		.second-page, .fourth-page{
 			.four{
 				display: flex;
 				justify-content: space-between;
@@ -196,10 +196,10 @@ $accent:#4A7FD9;
 		}
 		
 		.fourth-page{
-			select{
-				width:100%;
-				padding:13px;
-			}
+			// select{
+			// 	width:100%;
+			// 	padding:13px;
+			// }
 		}
 
 		.fifth-page{

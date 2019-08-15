@@ -46,26 +46,26 @@ span {
     flex-basis: 55%; }
     .form-holder .three label:nth-child(1) input {
       width: 90%; }
-  .form-holder .second-page .four {
+  .form-holder .second-page .four, .form-holder .fourth-page .four {
     display: flex;
     justify-content: space-between;
     width: 102%; }
-    .form-holder .second-page .four select {
+    .form-holder .second-page .four select, .form-holder .fourth-page .four select {
       width: 100%;
       padding: 10px;
       appearance: none; }
-    .form-holder .second-page .four .first-select {
+    .form-holder .second-page .four .first-select, .form-holder .fourth-page .four .first-select {
       margin-right: 10px; }
-    .form-holder .second-page .four .checkbox {
+    .form-holder .second-page .four .checkbox, .form-holder .fourth-page .four .checkbox {
       position: relative; }
-      .form-holder .second-page .four .checkbox .input-check {
+      .form-holder .second-page .four .checkbox .input-check, .form-holder .fourth-page .four .checkbox .input-check {
         position: absolute;
         bottom: -50px;
         left: -10px;
         display: flex; }
-        .form-holder .second-page .four .checkbox .input-check input {
+        .form-holder .second-page .four .checkbox .input-check input, .form-holder .fourth-page .four .checkbox .input-check input {
           margin-right: 10px; }
-        .form-holder .second-page .four .checkbox .input-check input[type=checkbox].css-checkbox {
+        .form-holder .second-page .four .checkbox .input-check input[type=checkbox].css-checkbox, .form-holder .fourth-page .four .checkbox .input-check input[type=checkbox].css-checkbox {
           position: absolute;
           z-index: -1000;
           left: -1000px;
@@ -76,7 +76,7 @@ span {
           margin: -1px;
           padding: 0;
           border: 0; }
-        .form-holder .second-page .four .checkbox .input-check input[type=checkbox].css-checkbox + label.css-label {
+        .form-holder .second-page .four .checkbox .input-check input[type=checkbox].css-checkbox + label.css-label, .form-holder .fourth-page .four .checkbox .input-check input[type=checkbox].css-checkbox + label.css-label {
           padding-left: 30px;
           height: 25px;
           display: inline-block;
@@ -87,9 +87,9 @@ span {
           transform: scale(0.9);
           vertical-align: middle;
           cursor: pointer; }
-        .form-holder .second-page .four .checkbox .input-check input[type=checkbox].css-checkbox:checked + label.css-label {
+        .form-holder .second-page .four .checkbox .input-check input[type=checkbox].css-checkbox:checked + label.css-label, .form-holder .fourth-page .four .checkbox .input-check input[type=checkbox].css-checkbox:checked + label.css-label {
           background-position: 0 -25px; }
-        .form-holder .second-page .four .checkbox .input-check label.css-label {
+        .form-holder .second-page .four .checkbox .input-check label.css-label, .form-holder .fourth-page .four .checkbox .input-check label.css-label {
           background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_391ce065f36b1460c4845fa9b5173fba.png);
           -webkit-touch-callout: none;
           -webkit-user-select: none;
@@ -139,9 +139,6 @@ span {
           .form-holder .third-page .text-holder .rec ul li:hover {
             background: #F5F5F5;
             transform: scale(1.04); }
-  .form-holder .fourth-page select {
-    width: 100%;
-    padding: 13px; }
   .form-holder .fifth-page .input-check {
     margin-bottom: 30px;
     bottom: -50px;
